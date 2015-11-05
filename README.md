@@ -1,3 +1,5 @@
+Forked from https://github.com/yogiben/meteor-autoform-file
+
 Autoform File
 =============
 

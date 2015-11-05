@@ -9,7 +9,6 @@
       {{/if}}
     {{else}}
       {{> Template.dynamic template=selectFileBtnTemplate data=label}}
-      <input type="file" class="hidden js-file" accept="{{atts.accept}}">
     {{/if}}
     <input type="hidden" class="js-value" value="{{value}}" data-schema-key="{{schemaKey}}">
   </div>

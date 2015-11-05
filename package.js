@@ -1,9 +1,9 @@
 Package.describe({
-  name: "yogiben:autoform-file",
+  name: "tianlongwang13:autoform-file",
   summary: "File upload for AutoForm",
-  description: "File upload for AutoForm",
-  version: "0.3.0",
-  git: "http://github.com/yogiben/autoform-file.git"
+  description: "File upload for AutoForm, with the new bugfix",
+  version: "0.0.1",
+  git: "https://github.com/tianlongwang/meteor-autoform-file.git"
 });
 
 Package.onUse(function(api) {
@@ -18,7 +18,7 @@ Package.onUse(function(api) {
     'less@1.0.0 || 2.5.0',
     'aldeed:autoform@5.5.1',
     'fortawesome:fontawesome@4.4.0',
-    'cfs:ui'
+    'cfs:ui@0.1.0'
   ]);
 
   api.addFiles('lib/client/autoform-file.html', 'client');
