@@ -2,7 +2,7 @@ Package.describe({
   name: "tianlongwang13:autoform-file",
   summary: "File upload for AutoForm",
   description: "File upload for AutoForm, with the new bugfix",
-  version: "0.0.1",
+  version: "0.0.3",
   git: "https://github.com/tianlongwang/meteor-autoform-file.git"
 });
 
